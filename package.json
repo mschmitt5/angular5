@@ -1,4 +1,3 @@
-
 {
   "name": "angular5-example",
   "version": "3.0.0",
@@ -8,17 +7,14 @@
     "email": "dylan@deepdivedylan.io",
     "url": "https://www.deepdivedylan.io/"
   },
-
   "scripts": {
     "build": "rimraf public_html/dist && tsc && webpack --config webpack/webpack.live.js --progress --profile --bail",
     "start": "rimraf public_html/dist && webpack-dev-server --config webpack/webpack.dev.js --inline --progress --port 7272"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/mschmitt5/angular5.git"
   },
-
   "dependencies": {
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
@@ -32,7 +28,6 @@
     "jquery": "^3.2.1",
     "zone.js": "^0.8.18"
   },
-
   "devDependencies": {
     "@types/node": "^8.0.47",
     "awesome-typescript-loader": "^3.3.0",
